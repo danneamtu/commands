@@ -1,0 +1,28 @@
+COMANDS:
+clone = bring a repository that is hosted somewhere like Github into a folder to your local machine
+
+add    = track your files and changes on GIT
+commit = save your files in GIT 
+push   = upload GIT commits to a remote repository, like GITHub 
+pull   = download changes from remote repo to you local machine
+reset  = remove add file
+reset HEAD~1 = remove the commit and go back 1 step
+
+LOCAL GIT WORKFLOW 
+write code 
+stage changes  [git add file.html]
+commit changes [git commit] (save changes to the local repository)
+push changes [git push]
+make a pull request
+
+GITHUB WORKFLOW 
+write code 
+commit changes 
+make a pull request
+
+
+GIT BRANCHES 
+git branch (show branches)
+git checkout -b newFeature (add new branch)
+git push --set-upstream (-u shorthand) origin newFeature
+
